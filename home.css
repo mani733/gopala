@@ -1,0 +1,17 @@
+*{
+    font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-weight: bolder;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+a{ 
+    text-decoration: none !important; 
+    background-color: #8bc349;
+    font-size: 30px;
+    padding: 10px 60px 10px 60px;
+    color: #c7f19b !important;
+    font-weight: lighter !important;
+    border-radius: 40px;  
+}
