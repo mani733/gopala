@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        background-color: #000;
+    }
+    .container2{
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        border: 2px solid #7ebb5c;
+        display: block;
+        height: 100%;
+        width: 900px;
+        margin: 0 auto;
+        background-color: #7ebb5c;
+    }
+    .container{
+        /* border: 2px solid green; */
+        display: block;
+        width: 700px;
+        margin: 150px auto;
+        padding: 10px;
+        background-color: #ffffff;
+        box-shadow: 10px 10px 10px grey;
+    }
+    input{
+        display: block;
+        width: 500px;
+        margin: 20px auto;
+        padding: 30px;
+        background-color: #fff;
+        border: none;
+    }
+    #login{
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+        margin-bottom: 10px;
+        padding: 30px;
+        background-color: #53af50;
+        font-size: 22px;
+        color: #fff;
+        border: none;
+        border-radius: 20px 0px;
+        cursor: pointer;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: center;
+    }
+    h2{
+        background-color: #fff;
+        padding: 10px;
+        text-align: center;
+    }
+    #login-redirect{
+        text-decoration: none;
+    }
+</style>
+<body>
+    <div class="container2">
+    <div class="container">
+        <h2>Signup</h2>
+        <input type="text" placeholder="Name"/>
+        <input type="number" placeholder="Age"/>
+        <input type="date" placeholder="Date Of Birth"/>
+        <input type="number" placeholder="Phone Number"/>
+        <input type="text" placeholder="Username"/>
+        <input type="password" placeholder="Password">
+        <a id="login" href="#" target="_blank">SIGNIN</a>
+        <p style="background-color: #fff; font-size: 20px; text-align: center; margin-bottom: 40px;">Already registered? 
+            <a id="login-redirect" href="/index.html"><span style="background-color: #fff; color: #6fc0a6; cursor: pointer;">Login</span></a></p>
+    </div>
+</body>
+</html>
